@@ -7,7 +7,7 @@ const DotGroup = ({ selectedPage, setSelectedPage }) => {
   return (
     <div className="flex flex-col gap-6 fixed top-[60%] right-7">
       <AnchorLink
-        href="#home"
+        href="https://euon.social"
         className={`${
           selectedPage === "home" ? selectedStyles : "bg-dark-grey"
         } w-3 h-3 rounded-full`}
@@ -15,31 +15,31 @@ const DotGroup = ({ selectedPage, setSelectedPage }) => {
       />
 
       <AnchorLink
-        href="#skills"
+        href="https://blog.euon.social"
         className={`${
-          selectedPage === "skills" ? selectedStyles : "bg-dark-grey"
+          selectedPage === "blog" ? selectedStyles : "bg-dark-grey"
         } w-3 h-3 rounded-full`}
-        onClick={() => setSelectedPage("skills")}
+        onClick={() => setSelectedPage("blog")}
       />
 
       <AnchorLink
-        href="#projects"
+        href="https://galeri.euon.social"
         className={`${
-          selectedPage === "projects" ? selectedStyles : "bg-dark-grey"
+          selectedPage === "galeri" ? selectedStyles : "bg-dark-grey"
         } w-3 h-3 rounded-full`}
-        onClick={() => setSelectedPage("projects")}
+        onClick={() => setSelectedPage("galeri")}
       />
 
       <AnchorLink
-        href="#testimonials"
+        href="https://channel.euon.social"
         className={`${
-          selectedPage === "testimonials" ? selectedStyles : "bg-dark-grey"
+          selectedPage === "channel" ? selectedStyles : "bg-dark-grey"
         } w-3 h-3 rounded-full`}
-        onClick={() => setSelectedPage("testimonials")}
+        onClick={() => setSelectedPage("channel")}
       />
 
       <AnchorLink
-        href="#contact"
+        href="https://formsubmit.co/el/babidi"
         className={`${
           selectedPage === "contact" ? selectedStyles : "bg-dark-grey"
         } w-3 h-3 rounded-full`}
